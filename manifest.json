@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Cricfree",
+  "version": "0.0.1",
+  "description": "Remove AdBlock nag from cricfree.tv",
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "css": ["style.css"],
+    "all_frames": true
+  }]
+}
